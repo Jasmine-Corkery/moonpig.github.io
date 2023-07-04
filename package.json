@@ -2,7 +2,7 @@
   "name": "moonpig-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jasmine-corkery.github.io/moonpig.github.io/",
+  "homepage": "https://jasmine-corkery.github.io/",
   "proxy": "https://moonpig.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
