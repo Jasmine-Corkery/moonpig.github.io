@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build build",
+    "build": "react-scripts build && xcopy /s /y build build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.22.6",
     "@babel/preset-react": "^7.22.5",
     "babel-loader": "^9.1.2",
