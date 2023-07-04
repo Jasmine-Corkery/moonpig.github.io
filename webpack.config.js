@@ -4,8 +4,7 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'), 
-    // Update output path to 'build' directory    
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
   module: {
@@ -27,6 +26,7 @@ module.exports = {
     ],
   },
 };
+
 
 
   
