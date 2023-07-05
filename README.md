@@ -8,12 +8,15 @@ Moonpig Frontend Project
 
 # Installation and setup
 1 - Clone the repository:
+
 git clone https://github.com/jasmine-corkery/moonpig.git.io
 
 2 - Navigate to the product directory
+
 cd moonpig.git.io
 
-3 - Install the dependencies 
+3 - Install the dependencies
+
 npm install
 
 4 - Start the development server
